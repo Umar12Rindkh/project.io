@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh ;
+    background-color: rgb(218, 218, 218);
+    overflow: hidden;
+    
+}
+
+body header{
+    position: relative;
+    top: -8px;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+}
+.text{
+    width: 90%;
+    padding-top: 10px;
+    margin: auto;
+}
+
+body header h5{
+    font-size: 1.5rem;
+    margin: 0.4rem 0;
+}
+
+body header p{
+    color:  rgb(133, 133, 133);
+}
+
+
+body main{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+body main form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+body main form label:first-child{
+    margin-bottom: 0.5rem;
+}
+#email{
+    height: 100%;
+    height: 2rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+}
+body main form label:nth-child(3){
+    margin-bottom: 0.5rem;
+
+}
+#passwoard{
+    height: 100%;
+    height: 2rem;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+}
+
+#submit{
+    width: 100%;
+    height: 2rem;
+    background-color:  rgb(226, 181, 31);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+#submit:focus{
+    border: 1px solid black;
+}
+
+main form button{
+    width: 100%;
+    height: 2rem;
+    background-color:  rgb(150, 150, 150);
+    border: none;
+    border-radius: 5px;
+}
+
+main form button:focus{
+    border: 1px solid black;
+}
